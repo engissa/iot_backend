@@ -1,0 +1,25 @@
+{
+	"rc_address": "http://172.20.10.14:8181/catalog/",
+	"device": {
+		"dev_type": "actuator",
+		"updated_on": 0,
+		"dev_id": "A123",
+		"resources": [],
+		"endpoints": [{
+			"action": "on",
+			"type": "MQTT",
+			"description": "Turn actuator on",
+			"topic": "act/A123"
+		}, {
+			"action": "off",
+			"type": "MQTT",
+			"description": "Turn actuator off",
+			"topic": "act/A123"
+		}, {
+			"action": "status",
+			"type": "MQTT",
+			"description": "get status of actuator",
+			"address": "act/A123"
+		}]
+	}
+}
